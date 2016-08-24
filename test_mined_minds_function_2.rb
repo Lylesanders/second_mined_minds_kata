@@ -12,6 +12,10 @@ require_relative "mined_minds_function_2.rb"	# This points minitest at the corre
  		assert_equal(2, mined_minds(2))
  	end
 
+ 	def test_7_equil_7							# this will send the value 7 to the mined_minds function. Since the function echos back any variable pushed to, it will pass
+ 		assert_equal(7, mined_minds(7))
+ 	end
+
 
 
  end	#this end is for the class
