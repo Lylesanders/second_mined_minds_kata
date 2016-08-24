@@ -8,5 +8,10 @@ require_relative "mined_minds_function_2.rb"	# This points minitest at the corre
  		assert_equal(1, mined_minds(1))
  	end
 
+ 	def test_2_equil_2							# this test will send the value of 2 to the mined_minds function. If the function value is hard coded at 1 it will fail
+ 		assert_equal(2, mined_minds(2))
+ 	end
+
+
 
  end	#this end is for the class
