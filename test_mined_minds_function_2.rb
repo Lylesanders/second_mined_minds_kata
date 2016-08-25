@@ -20,8 +20,12 @@ require_relative "mined_minds_function_2.rb"	# This points minitest at the corre
  		assert_equal("mined", mined_minds(3))
  	end
 
- 	def test_5_returns_minds
+ 	def test_5_returns_minds					#This test will push 5 to mined_minds function and will pass only if mined_minds returns mined"
 		assert_equal("minds", mined_minds(5))
+	end
+
+	def test_15_returns_mined_minds				# This test will push 15 to mined_minds function and will pass only if mined_minds returns mined minds"
+		assert_equal("mined_minds", mined_minds(15))
 	end
 
 

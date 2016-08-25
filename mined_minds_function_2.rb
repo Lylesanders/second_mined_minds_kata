@@ -1,6 +1,8 @@
 def mined_minds(number)			# defines the function mined_minds with a parameter to be passed
 
-	if number ==3
+	if number == 15
+		"mined_minds"
+	elsif number ==3
 		"mined"
 	elsif number ==5
 		"minds"
