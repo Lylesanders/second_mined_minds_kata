@@ -2,6 +2,8 @@ def mined_minds(number)			# defines the function mined_minds with a parameter to
 
 	if number ==3
 		"mined"
+	elsif number ==5
+		"minds"
 	else
 		number					# By changing this to a variable, the function will echo back what is pushed into it
 	end
